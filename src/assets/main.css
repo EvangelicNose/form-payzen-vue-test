@@ -1,0 +1,138 @@
+@import './base.css';
+
+:root {
+  --color-primary: #007bff;
+}
+
+
+#app {
+  max-width: 1280px;
+  height: 100vh;
+  margin: auto;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.kr-embedded {
+  background-color: white;
+}
+
+.kr-field,
+.kr-field-element {
+  box-sizing: border-box;
+  border: 1px solid #c1c1c1 !important;
+  padding: 0.5rem !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0;
+  border-radius: 4px !important;
+}
+
+.kr-field {
+  padding: 0 !important;
+  border-radius: 4px !important;
+}
+
+.kr-field:hover,
+.kr-field-element:hover {
+  border-color: var(--color-primary) !important;
+}
+
+.kr-field input {
+  padding: 0.5rem !important
+}
+
+.kr-icon {
+  display: none !important;
+  justify-content: center !important;
+  background-color: transparent !important;
+}
+
+.kr-field .kr-input-wrapper {
+  padding: 0.5rem !important;
+  background-color: transparent !important;
+}
+
+.kr-custom-input {
+  width: 100% !important;
+  height: auto !important;
+}
+
+.kr-payment-button {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  padding: 0.5rem !important;
+  cursor: pointer !important;
+}
+
+.kr-embedded .kr-expiry.kr-size-half {
+  margin-right: 0px;
+}
+
+.kr-popin-modal-header,
+.kr-popin-modal-footer {
+  display: none !important;
+}
+
+.kr-card-form {
+  padding: 2rem 1rem !important;
+  margin: 30px !important;
+  border: 3px solid var(--color-primary) !important;
+  border-radius: 1rem !important;
+}
+
+.kr-theme {
+  border-radius: 4px !important;
+
+}
+
+.kr-help-button-wrapper,
+.kr-icon-arrow {
+  display: none !important;
+}
+
+.kr-security-code {
+  width: 100% !important;
+}
+
+label,
+.title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-weight: 300 !important;
+  margin-bottom: 5px !important;
+}
+
+.title {
+  font-weight: 500 !important;
+  margin-bottom: 1rem !important;
+}
+
+.kr-input-relative-wrapper * {
+  font-family: SansProRegular, serif !important;
+}
+
+@font-face {
+  font-family: SansProRegular;
+  src: url('.https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+}
+
+@font-face {
+  font-family: 'SansProBold';
+  src:
+    local('SansProBold'),
+    url('../assets/fonts/SourceSansPro-Bold.ttf'),
+    format('truetype');
+}
+
+@font-face {
+  font-family: 'SansProSemiBold';
+  src:
+    local('SansProSemiBold'),
+    url('../assets/fonts/SourceSansPro-SemiBold.ttf'),
+    format('truetype');
+}
