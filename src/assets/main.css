@@ -118,7 +118,10 @@ label,
 
 @font-face {
   font-family: SansProRegular;
-  src: url('.https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+  src:
+    local('SansProRegular'),
+    url('../assets/fonts/SourceSansPro-Regular.ttf'),
+    format('truetype');
 }
 
 @font-face {
